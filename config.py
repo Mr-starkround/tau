@@ -40,8 +40,8 @@ CHANNEL = os.environ.get("CHANNEL", "Zoids_Robot")
 GROUP = os.environ.get("GROUP", "Zoidssupport")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002107965486"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002012158689"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001815133216"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002011108012"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
