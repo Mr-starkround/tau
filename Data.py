@@ -45,9 +45,5 @@ class Data:
 
 @{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
 
- • Creator: @{}
- • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Language: <a href='https://www.python.org'>Python</a>
-
-👨‍💻 Develoved by @Nakama_asl</b>
+👨‍💻 Develoved by @OnlyVaan</b>
 """
