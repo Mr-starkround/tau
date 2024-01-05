@@ -42,17 +42,17 @@ GROUP = os.environ.get("GROUP", "jawa_grup")
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001935857563"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001869711042"))
-FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
-FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
-FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
-FORCE_SUB_6 = int(os.environ.get("FORCE_SUB_6", "0"))
+FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "-1002087560839"))
+FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "-1001957222400"))
+FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "-1001917257105"))
+FORCE_SUB_6 = int(os.environ.get("FORCE_SUB_6", "-1001880856651"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>👩‍💻 𝑯𝒂𝒍𝒍𝒐 {first}</b>\n\n<b>✨ 𝑼𝒏𝒕𝒖𝒌 𝑴𝒆𝒏𝒅𝒂𝒑𝒂𝒕𝒌𝒂𝒏 𝑨𝒔𝒖𝒑𝒂𝒏 𝑮𝒓𝒂𝒕𝒊𝒔 𝑨𝒏𝒅𝒂 𝑯𝒂𝒓𝒖𝒔 𝑱𝒐𝒊𝒏 𝑻𝒆𝒓𝒍𝒆𝒃𝒊𝒉 𝑫𝒂𝒉𝒖𝒍𝒖\n✨ 𝑻𝒆𝒕𝒂𝒑 𝑺𝒕𝒂𝒚 𝑨𝒈𝒂𝒓 𝒃𝒊𝒔𝒂 𝑻𝒆𝒓𝒖𝒔 𝒅𝒂𝒑𝒂𝒕 𝑨𝒌𝒔𝒆𝒔 𝑽𝒊𝒅𝒆𝒐 𝑻𝒆𝒓𝒖𝒑𝒅𝒂𝒕𝒆\n\n👩‍💻 𝑱𝒊𝒌𝒂 𝑩𝒐𝒕 𝑴𝒂𝒕𝒊 𝒂𝒕𝒂𝒘 𝑩𝒆𝒓𝒌𝒆𝒏𝒅𝒂𝒍𝒂 𝑳𝒂𝒑𝒐𝒓 𝒌𝒆 @OnlyVaan.</b>",
+    "<b>Hallo {first}</b>\n\n<b>✨Silahkan join grup dan channel di bawah ini untuk bisa mengakses video.\n Hubungi @OnlyVaan jika ada masalah dengan bot.</b>",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1228099043").split())]
@@ -62,7 +62,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>👩‍💻 𝑯𝒂𝒍𝒍𝒐 {first}</b>\n\n<b>✨ 𝑼𝒏𝒕𝒖𝒌 𝑴𝒆𝒏𝒅𝒂𝒑𝒂𝒕𝒌𝒂𝒏 𝑨𝒔𝒖𝒑𝒂𝒏 𝑮𝒓𝒂𝒕𝒊𝒔 𝑨𝒏𝒅𝒂 𝑯𝒂𝒓𝒖𝒔 𝑱𝒐𝒊𝒏 𝑻𝒆𝒓𝒍𝒆𝒃𝒊𝒉 𝑫𝒂𝒉𝒖𝒍𝒖\n✨ 𝑻𝒆𝒕𝒂𝒑 𝑺𝒕𝒂𝒚 𝑨𝒈𝒂𝒓 𝒃𝒊𝒔𝒂 𝑻𝒆𝒓𝒖𝒔 𝒅𝒂𝒑𝒂𝒕 𝑨𝒌𝒔𝒆𝒔 𝑽𝒊𝒅𝒆𝒐 𝑻𝒆𝒓𝒖𝒑𝒅𝒂𝒕𝒆\n\n👩‍💻 𝑱𝒊𝒌𝒂 𝑩𝒐𝒕 𝑴𝒂𝒕𝒊 𝒂𝒕𝒂𝒘 𝑩𝒆𝒓𝒌𝒆𝒏𝒅𝒂𝒍𝒂 𝑳𝒂𝒑𝒐𝒓 𝒌𝒆 @OnlyVaan.</b>",
+    "<b>Hallo {first}</b>\n\n<b>✨Silahkan join grup dan channel di bawah ini untuk bisa mengakses video.\n Hubungi @OnlyVaan jika ada masalah dengan bot.</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
