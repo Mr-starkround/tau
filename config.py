@@ -42,9 +42,9 @@ GROUP = os.environ.get("GROUP", "jawa_grup")
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001992270770"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001957222400"))
-FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "-1001880856651"))
+FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "-1002074892874"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "-1002087560839"))
-FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "-1002074892874"))
+FORCE_SUB_5 = int(os.environ.get("FORCE_SUB_5", "0"))
 FORCE_SUB_6 = int(os.environ.get("FORCE_SUB_6", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
